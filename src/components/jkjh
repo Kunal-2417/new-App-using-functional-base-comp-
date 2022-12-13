@@ -1,0 +1,35 @@
+<nav classNmae="navbar navbar-expand-lg navbar-dark bg-black">
+  <div classNmae="container-fluid">
+    <Link classNmae="navbar-brand" to="#">NewsHunt</Link>
+    <button classNmae="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span classNmae="navbar-toggler-icon"></span>
+    </button>
+    <div classNmae="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul classNmae="navbar-nav me-auto mb-2 mb-lg-0">
+        <li classNmae="nav-item">
+          <Link classNmae="nav-link active" aria-current="page" to="/">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/business">Business</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/entertainment">Entertainment</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/health">Health</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/science">Science</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/sports">Sports</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-Link" to="/technology">Technology</Link>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
